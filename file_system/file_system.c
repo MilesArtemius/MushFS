@@ -9,7 +9,7 @@
 const int magic = 0x10afc01;
 const int offset = 0; //0x1000;
 const int page_size = 128; //1024;
-const int page_content_size = page_size - sizeof(block_header);
+const int page_content_size = 128 - sizeof(block_header);
 
 
 
